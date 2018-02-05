@@ -1,6 +1,6 @@
 Start - 2:50
 
-Notes will be transfered to electronic by Colin
+Notes will be transferred to electronic by Colin
 Mockup is done
 Possible JavaScript toggle for switching site colors
 Get images for the site
