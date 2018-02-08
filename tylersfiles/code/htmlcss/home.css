@@ -1,35 +1,43 @@
+/*Colors for the body*/
 body{
   background-color: #FFF;
   color: #000;
 }
+/*center alignment for text and images*/
 .aligncenter{
   text-align: center;
   display: block;
   margin:auto;
 }
+/*left align for text and images*/
 .alignleft{
   display: block;
   margin-left:auto;
 }
+/*right align for text and images*/
 .alignright{
   display: block;
   margin-right:auto;
 }
+/*postioning for the video*/
 #videoInfo{
   text-align: right;
 }
+/*button stles and position*/
 #subscriptionButton{
   margin: auto;
 }
+/*nav bar scrolls with screen*/
 #navBar {
 	width: 100%;
 	display: block;
 	z-index: 1000;
 	position: fixed;
 	-webkit-box-shadow: 0 8px 6px -6px #999;
-    -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
 }
+/*list stylings*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -37,11 +45,11 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
-
+/*list item stylings*/
 li {
     float: left;
 }
-
+/*how drop downs displays*/
 li a, .dropbtn {
     display: inline-block;
     color: white;
@@ -49,15 +57,15 @@ li a, .dropbtn {
     padding: 14px 16px;
     text-decoration: none;
 }
-
+/*colors for drop downs*/
 li a:hover, .dropdown:hover .dropbtn {
     background-color: red;
 }
-
+/*How the drop down displays*/
 li.dropdown {
     display: inline-block;
 }
-
+/*controls whats inside the nav bar*/
 .dropdown-content {
     display: none;
     position: absolute;
@@ -66,7 +74,7 @@ li.dropdown {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-
+/*controls whats inside the nav bar*/
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -74,19 +82,19 @@ li.dropdown {
     display: block;
     text-align: left;
 }
-
+/*navbar drop down colors*/
 .dropdown-content a:hover {background-color: #f1f1f1}
-
+/*nav bar drop down*/
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
+/*Slideshow stlings*/
 .slideshow-container{
   position: relative;
   right: 0px;
   padding: 10px;
 }
-
+/*phone number box styling*/
 #phoneNum{
   background-color: white;
 width: 150px;
@@ -94,18 +102,20 @@ border: 10px solid black;
 padding: 10px;
 margin: 10px;
 }
-
+/*Styling for the individual hours*/
 .hours{
   margin: 10px;
 }
-
+/*Styling for the hours header*/
 #hoursTitle{
   margin: 10px;
+  padding-top: 50px;
 }
-
+/*background for our image*/
 .didYouKnow{
   background-color: #F6F6F6;
 }
+/*image alignment for our "didyouknow" image*/
 .didyouknowimg{
   display: block;
   margin: auto;
