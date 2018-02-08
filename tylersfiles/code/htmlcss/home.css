@@ -59,7 +59,7 @@ li a, .dropbtn {
 }
 /*colors for drop downs*/
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: grey;
 }
 /*How the drop down displays*/
 li.dropdown {
