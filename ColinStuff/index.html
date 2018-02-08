@@ -1,0 +1,219 @@
+<!--(☞ﾟヮﾟ)☞-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf=8">
+		<meta name="viewpoint" content="width=device-width; inital-scale=1.0; maximun-scale=1.0; user-scalable=0">
+		<title>
+			Home | Pure Elegance Health Spa
+		</title>
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" freh=""
+			<![endif]-->
+		<!--Google Street View of the Building-->
+		<iframe src="https://www.google.com/maps/embed?pb=!4v1516389934117!6m8!1m7!1s7faUMvUMrw9n31NCSldIFg!2m2!1d39.56378520520159!2d-84.23216445835062!3f281!4f0!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+		<!--Google Maps to the Business-->
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.8109972341304!2d-84.23272399999999!3d39.56386699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88408a5089e6f6ff%3A0xcfa349bdcb75b627!2sPure+Elegance+Body+Sculpting+Day+Spa!5e0!3m2!1sen!2sus!4v1516389995886" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+		<!--Logo/Home Button-->
+		<img src="#" />
+
+		<!--Navagation Bar-->
+		<nav id="navBar">
+			<ul>
+				<li>
+					<a href="#">Services</a>
+				</li>
+				<li>
+					<a href="#">Products</a>
+				</li>
+				<li>
+					<a href="#">Gallery</a>
+				</li>
+				<li>
+					<a href="#">Schedule an Appointment</a>
+				</li>
+				<li>
+					<a href="#">Membership Program</a>
+				</li>
+				<li>
+					<a href="#">Contact Us</a>
+				</li>
+				<li>
+					<a href="#">About Us</a>
+				</li>
+			</ul>
+		</nav>
+	</head>
+	<body>
+		<!--Information (Hours, Phone, Call Now Button) Section-->
+		<section id="info">
+			<!--Hours-->
+			<h3 id="hoursTitle">
+				Hours
+			</h3>
+			<table>
+				<tr>
+					<td>
+						Sun
+					</td>
+					<td>
+						#:## - #:##
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Mon
+					</td>
+					<td>
+						#:## - #:##
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Tues
+					</td>
+					<td>
+						#:## - #:##
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Wed
+					</td>
+					<td>
+						#:## - #:##
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Thurs
+					</td>
+					<td>
+						#:## - #:##
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Fri
+					</td>
+					<td>
+						#:## - #:##
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Sat
+					</td>
+					<td>
+						#:## - #:##
+					</td>
+				</tr>
+			</table>
+			<br>
+			<!--Phone-->
+			<p id="phoneNum">
+				(937)550-4329
+			</p>
+			<!-- Slideshow container -->
+			<a href="tel:9375504329" id="callButton">Call Now to Schedule an Appointment</a>
+			<div class="slideshow-container">
+				<!-- Full-width images with number and caption text -->
+				<div class="mySlides fade">
+					<div class="numbertext">1 / 3</div>
+					<img src="#.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+					<div class="numbertext">2 / 3</div>
+					<img src="#.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+					<div class="numbertext">3 / 3</div>
+					<img src="#.jpg" style="width:100%">
+				</div>
+
+				<!-- The dots/circles -->
+				<div style="text-align:center">
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+				</div>
+			</div>
+			<br>
+
+			<!--Slideshow Javascript-->
+			<script type="text/Javascript" />
+				var slideIndex = 1;
+				showSlides(slideIndex);
+
+				function showSlides() {
+					var i;
+					var slides = document.getElementsByClassName("mySlides");
+					var dots = document.getElementsByClassName("dot");
+					for (i = 0; i < slides.length; i++) {
+						slides[i].style.display = "none";
+					}
+					for (i = 0; i < dots.length; i++) {
+						dots[i].className = dots[i].className.replace(" active", "");
+					}
+					slideIndex++;
+					if (slideIndex > slides.length) {slideIndex = 1}
+					slides[slideIndex-1].style.display = "block";
+					dots[slideIndex-1].className += " active";
+					setTimeout(showSlides, 5000); // Change image every 2 seconds
+				}
+				</script>
+		</section>
+		<!--Video-->
+		<section id="video">
+			<h3 id="sectionHead video">
+				See when Pure Elegance was featured on Fox News
+			</h3>
+			<p id="videoInfo">
+				Check us out from when we were featured on Fox News for our Lunchtime Lift adn body sculpting.
+			</p>
+		</section>
+		<!--Email Subscription-->
+		<section id="subscribe">
+			<h3>
+					Subscribe
+			</h3>
+			Sign up now to learn about specials, sales, and events!<br>
+			<input type="email" name="email" id="emailBox">
+			<input type="button" value="Subscribe" name="subscribe" id="subscriptionButton">
+		</section>
+		<!--"You Deserve It" advertizing-->
+		<section>
+			<h3>
+				You Deserve It
+			</h3>
+			<img src="#" id="DeservePic1">
+			<h5 id="deserveHeader">
+				Did you know?
+			</h5>
+			<p id="deserveText">
+				Spa treatments are proven to help you de-stress while improving circulation, help with pain management while promotine cellular renovation, eliminating toxins, and exfoliate skin?
+			</p>
+			<img src="#" id="DeservePic2">
+			<h5 id="deserveHeader">
+				This Will...
+			</h5>
+			<p id="deserveText">
+				Cause your body to release Serotonin, enhancing the body and mind, putting it into a "feel good" state
+			</p>
+			<img src="#" id="DeservePic3">
+			<h5 id="deserveHeader">
+				Book your appointment and...
+			</h5>
+			<p id="deserveText">
+				Put your mind, body, and spirit in harmony today.
+			</p>
+	</body>
+	<!--Copyright Info-->
+	<footer id="copyright">
+		©2018 Pure Elegance Wellness Spa. All rights reserved.
+	</footer>
+</html>
