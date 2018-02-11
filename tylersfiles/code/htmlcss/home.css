@@ -92,7 +92,9 @@ li.dropdown {
 }
 /*Slideshow stlings*/
 .slideshow-container{
+  display: block;
   position: relative;
+  margin-right: 0px;
   right: 0px;
   padding: 10px;
 }
