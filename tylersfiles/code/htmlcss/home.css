@@ -118,6 +118,7 @@ margin: 10px;
 /*background for our image*/
 .didYouKnow{
   background-color: #F6F6F6;
+  padding: 0px;
 }
 /*image alignment for our "didyouknow" image*/
 .didyouknowimg{
