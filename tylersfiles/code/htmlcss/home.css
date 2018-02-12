@@ -29,6 +29,11 @@ body{
 #subscriptionButton{
   margin: auto;
 }
+/*subscribe styles and position*/
+.subscribe{
+  display: block;
+  float: right;
+}
 /*nav bar scrolls with screen*/
 #navBar {
 	width: 100%;
