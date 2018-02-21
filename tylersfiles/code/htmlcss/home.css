@@ -99,9 +99,7 @@ li.dropdown {
 .slideshow-container{
   display: block;
   position: relative;
-  margin-right: 0px;
-  right: 0px;
-  padding: 10px;
+  float: right;
 }
 /*phone number box styling*/
 #phoneNum{
