@@ -1,6 +1,8 @@
 /*Colors for the body*/
-body{
+html {
   background-color: #F6F6F6;
+}
+body{
   color: #000;
 }
 /*center alignment for text and images*/
