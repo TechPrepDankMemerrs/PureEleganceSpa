@@ -1,6 +1,6 @@
 /*Colors for the body*/
 body{
-  background-color: #FFF;
+  background-color: #F6F6F6;
   color: #000;
 }
 /*center alignment for text and images*/
@@ -90,7 +90,9 @@ li.dropdown {
     text-align: left;
 }
 /*navbar drop down colors*/
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
 /*nav bar drop down*/
 .dropdown:hover .dropdown-content {
     display: block;
@@ -103,7 +105,7 @@ li.dropdown {
 }
 /*phone number box styling*/
 #phoneNum{
-  background-color: white;
+  background-color: #f1f1f1;
 width: 150px;
 border: 10px solid black;
 padding: 10px;
@@ -120,7 +122,6 @@ margin: 10px;
 }
 /*background for our image*/
 .didYouKnow{
-  background-color: #F6F6F6;
   padding: 0px;
 }
 /*image alignment for our "didyouknow" image*/
