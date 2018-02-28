@@ -1,9 +1,16 @@
 /*Colors for the body*/
 html {
   background-color: #F6F6F6;
+
 }
 body{
   color: #000;
+  font-family: Geneva, 'sans-serif';
+}
+
+span{
+  font-family: Geneva, 'sans-serif';
+  color: red;
 }
 /*center alignment for text and images*/
 .aligncenter{
@@ -93,7 +100,7 @@ li.dropdown {
 }
 /*navbar drop down colors*/
 .dropdown-content a:hover {
-  background-color: #f1f1f1
+  background-color: #f1f1f1;
 }
 /*nav bar drop down*/
 .dropdown:hover .dropdown-content {
@@ -130,4 +137,16 @@ margin: 10px;
 .didyouknowimg{
   display: block;
   margin: auto;
+}
+
+footer{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(39, 40, 40);
+  color: white;
+  font-family: Geneva, 'sans-serif';
+  letter-spacing: .1em;
+  font-size: .8em;
 }
