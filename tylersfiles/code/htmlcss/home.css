@@ -150,3 +150,12 @@ footer{
   letter-spacing: .1em;
   font-size: .8em;
 }
+
+.slideShow{
+  height: 300px;
+  width: 700px;
+  display: block;
+  float: right;
+  margin-right: 50px;
+  margin-left: 50px;
+}
