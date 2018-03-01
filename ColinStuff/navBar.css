@@ -1,0 +1,63 @@
+/*nav bar scrolls with screen*/
+#navBar {
+	width: 100%;
+	display: block;
+	z-index: 1000;
+	position: fixed;
+	-webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+/*list stylings*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+/*list item stylings*/
+li {
+    float: left;
+}
+/*how drop downs displays*/
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*colors for drop downs*/
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: grey;
+}
+/*How the drop down displays*/
+li.dropdown {
+    display: inline-block;
+}
+/*controls whats inside the nav bar*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/*controls whats inside the nav bar*/
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+/*navbar drop down colors*/
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+/*nav bar drop down*/
+.dropdown:hover .dropdown-content {
+    display: block;
+}
