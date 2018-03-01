@@ -1,0 +1,11 @@
+footer{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(39, 40, 40);
+  color: white;
+  font-family: 'Geneva', sans-serif;
+  letter-spacing: .1em;
+  font-size: .8em;
+}
