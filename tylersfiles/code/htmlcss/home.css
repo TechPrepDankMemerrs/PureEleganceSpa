@@ -5,11 +5,11 @@ html {
 }
 body{
   color: #000;
-  font-family: Geneva, 'sans-serif';
+  font-family: 'Geneva', sans-serif;
 }
 
 span{
-  font-family: Geneva, 'sans-serif';
+  font-family: 'Geneva', sans-serif;
   color: red;
 }
 /*center alignment for text and images*/
@@ -146,7 +146,7 @@ footer{
   margin-bottom: 10px;
   background-color: rgb(39, 40, 40);
   color: white;
-  font-family: Geneva, 'sans-serif';
+  font-family: 'Geneva', sans-serif;
   letter-spacing: .1em;
   font-size: .8em;
 }
@@ -158,4 +158,5 @@ footer{
   float: right;
   margin-right: 50px;
   margin-left: 50px;
+  position: relative;
 }
